@@ -1,13 +1,29 @@
+#quote-box {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 300px auto;
+    width: 600px;
+    border-radius: 5px;
+}
+
+span {
+    font-size: 25pt;
+    color: lightblue;
+}
+
 #text {
     text-align: center;
     margin: 20px;
     font-size: 25pt;
+    color: lightblue;
 }
 
 #author {
     text-align: right;
     margin-right: 20px;
     font-size: 13pt;
+    color: lightblue;
 }
 
 div {
@@ -24,6 +40,7 @@ button {
     cursor: pointer;
     outline: none;
     font-size: 12pt;
+    background-color: lightblue;
 }
 
 button:active {

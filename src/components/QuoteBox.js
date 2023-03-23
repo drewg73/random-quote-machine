@@ -14,7 +14,7 @@ export default function QuoteBox() {
   }
 
   return (
-    <>
+    <div id="quote-box">
         <p id="text"><span>"</span> {quote.quote}</p>
         <p id="author">- {quote.author}</p>
         <div>
@@ -33,6 +33,6 @@ export default function QuoteBox() {
                 New Quote
             </button>
         </div>
-    </>
+    </div>
   )
 }
