@@ -1,0 +1,31 @@
+#text {
+    text-align: center;
+    margin: 20px;
+    font-size: 25pt;
+}
+
+#author {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 13pt;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+button {
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 12pt;
+}
+
+button:active {
+    transform: scale(0.95);
+}

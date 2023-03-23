@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import quotes from '../quotes';
+import "./QuoteBox.css";
 
 let initialQuote = quotes[Math.floor(Math.random() * quotes.length - 1)];
 
@@ -14,14 +15,13 @@ export default function QuoteBox() {
 
   return (
     <>
-        <p id="text">" {quote.quote}</p>
+        <p id="text"><span>"</span> {quote.quote}</p>
         <p id="author">- {quote.author}</p>
         <div>
             <button>
                 <a  
                     id="tweet-quote"
                     href="twitter.com/intent/tweet"
-                    target="_blank"
                 >
                     Tweet Quote
                 </a>

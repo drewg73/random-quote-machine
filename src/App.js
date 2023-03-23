@@ -2,9 +2,7 @@ import QuoteBox from "./components/QuoteBox";
 
 function App() {
   return (
-    <>
-      <QuoteBox />
-    </>
+      <QuoteBox class="quote-box"/>
   );
 }
 
