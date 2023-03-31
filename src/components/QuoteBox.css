@@ -1,29 +1,36 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #quote-box {
-    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     margin: n300px auto;
     width: 600px;
-    border-radius: 5px;
+    height: fit-content;
+    border-radius: 16px;
+    background-color: #FFFFFC;
 }
 
 span {
     font-size: 25pt;
-    color: lightblue;
 }
 
 #text {
     text-align: center;
     margin: 20px;
     font-size: 25pt;
-    color: lightblue;
 }
 
 #author {
     text-align: right;
     margin-right: 20px;
     font-size: 13pt;
-    color: lightblue;
 }
 
 div {
@@ -34,15 +41,20 @@ div {
 
 button {
     border: none;
-    height: 30px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 15px;
     border-radius: 5px;
     cursor: pointer;
     outline: none;
     font-size: 12pt;
-    background-color: lightblue;
+    color: #FFFFFC;
 }
 
 button:active {
     transform: scale(0.95);
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFC;
 }
